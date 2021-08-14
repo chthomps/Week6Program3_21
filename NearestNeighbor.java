@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class NearestNeighbor {
 
-	// Variables- arrays where double data will be stored post-conversion from input strings
+	// Variables- arrays where double data or Strings will be stored 
 	static double[][] testAttributeArray;
 	static double[][] trainAttributeArray;
 	static String[] testClassLabelArray;
@@ -21,7 +21,7 @@ public class NearestNeighbor {
 	public static void main(String[] args) throws IOException {
 
 		
-	    //headers
+	        //headers
 		System.out.println("Programming Fundamentals");
 		System.out.println("Name: Christopher Thompson");
 		System.out.println("PROGRAMMING ASSIGNMENT 3");
@@ -163,7 +163,7 @@ public class NearestNeighbor {
 
 		// loop taking one testing row (species) at a time
 		for (int testRow = 0; testRow < 75; testRow++) {
-			int currentMinTrainRow = 0;	 // variable tracking minimum training row below
+			int currentMinTrainRow = 0;  // variable tracking minimum training row below
 			double currentMinDist = 100; // initializing with a "high" number that will exceed any dist return
 			
 
