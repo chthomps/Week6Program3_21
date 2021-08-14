@@ -52,7 +52,7 @@ public class NearestNeighbor {
 		System.out.println("EX#: TRUE LABEL, PREDICTED LABEL");
 		
 		
-		// Call makeAttributeArray method on specified import file - save output to array
+		// Call makeAttributeArray method and makeClassArray method on specified import file - save output to array
 		testAttributeArray = NearestNeighbor.makeAttributeArray(inTestFile);
 		testClassLabelArray = NearestNeighbor.makeClassArray(inTestFile);
 
